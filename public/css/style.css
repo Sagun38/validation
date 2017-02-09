@@ -1,0 +1,188 @@
+/*
+* NAVBAR
+*/
+
+.navbar-default {
+  background-color: #4226B2;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #4226B2;
+  background-color: #ffffff;
+}
+
+/*
+* FINISH
+*/
+
+
+/*
+* CONTAINER TITLE, ALL PAGES
+*/
+
+.titlePage {
+  color: #ffffff;
+  text-align: center;
+}
+
+.titleContainer {
+  height: auto;
+  width: 80%;
+  background-color: #3FB240;
+  padding: 20px;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+
+/*
+* FINISH
+*/
+
+
+/*
+* MAIN CONTAINER , ALL PAGES
+*/
+
+.mainContainer {
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+  border: solid 1px grey;
+}
+
+/*
+* FINISH
+*/
+
+
+
+
+
+
+
+
+/*
+* PAGES PRODUITS
+*/
+
+  .blockProduit {
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f5f8fa;
+      border: solid lightgrey 1px;
+  }
+
+  .containerImg {
+    width: 100%;
+    text-align: center;
+  }
+  .imgProduit {
+    text-align: center;
+    height:150px;
+    margin: auto;
+    width: auto;
+  }
+
+  .nomProduit {
+    text-align: center;
+    color: #8667FF;
+    font-weight: bold;
+  }
+
+  .prixProduit {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+  }
+
+  .descriptionProduit {
+    text-align: center;
+    color: black;
+  }
+
+/*
+* FINISH
+*/
+
+
+/*
+* PAGE MESSAGE
+*/
+
+  .containerMessage {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f8fa;
+    border: solid lightgrey 1px;
+  }
+
+/*
+* FINISH
+*/
+
+
+/*
+* FOOTER
+*/
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #4226B2;
+  height: 50px;
+  text-align: center;
+  position: fixed;
+}
+
+footer p {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: #ffffff;
+}
+
+/*
+* FINISH
+*/
+
+input {
+    border: 1px solid black;
+}
+
+textarea {
+  resize: none;
+  width: 50%;
+  border: 1px black solid;
+}
+
+.mid {
+  text-align: center;
+}
+
+.blockInfo {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.accueilContainer {
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+  border: solid 1px grey;
+  text-align: center;
+}
