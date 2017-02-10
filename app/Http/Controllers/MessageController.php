@@ -23,6 +23,6 @@ class MessageController extends Controller
     public function deleteMessage(Request $request, $id)
     {
       message::destroy($id);
-      return redirect('/message');
+      return redirect('/messages');
     }
   }
