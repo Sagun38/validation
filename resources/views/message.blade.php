@@ -5,6 +5,7 @@
   <div class="mainContainer">
     @foreach ($messages as $message)
       <div class="containerMessage">
+        ​<a class="btn-delete" href='/message/{{ $message->id }}/delete'>X</a>
         <h4>{{$message->name}}</h4>
         <p>Email: {{$message->email}}</p>
         <p>Message: {{$message->content}}</p>

@@ -16,6 +16,10 @@ public function afficheProduit()
     return view('produit', ['produits'=>$produits]);
 }
 
-
+public function deleteProduit(Request $request, $id)
+{
+  produit::destroy($id);
+  return redirect('/produit');
+}
 
 }

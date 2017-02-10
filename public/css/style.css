@@ -4,6 +4,12 @@
 
 .navbar-default {
   background-color: #4226B2;
+  -moz-box-shadow: 5px 5px 15px 0px #656565;
+-webkit-box-shadow: 5px 5px 15px 0px #656565;
+-o-box-shadow: 5px 5px 15px 0px #656565;
+box-shadow: 5px 5px 15px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=15);
+border: none;
 }
 .navbar-default .navbar-nav>li>a {
   color: #ffffff;
@@ -35,8 +41,12 @@
   padding: 20px;
   border-radius: 5px;
   margin: auto;
-  margin-bottom: 10px;
-
+  margin-bottom: 20px;
+  -moz-box-shadow: 0px 05px 15px 0px #656565;
+  -webkit-box-shadow: 0px 05px 15px 0px #656565;
+  -o-box-shadow: 0px 05px 15px 0px #656565;
+  box-shadow: 0px 05px 15px 0px #656565;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=15);
 }
 
 /*
@@ -56,6 +66,11 @@
   border-radius: 5px;
   margin-bottom: 60px;
   border: solid 1px grey;
+  -moz-box-shadow: 5px 5px 15px 0px #656565;
+  -webkit-box-shadow: 5px 5px 15px 0px #656565;
+  -o-box-shadow: 5px 5px 15px 0px #656565;
+  box-shadow: 5px 5px 15px 0px #656565;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=15);
 }
 
 /*
@@ -89,6 +104,13 @@
     height:150px;
     margin: auto;
     width: auto;
+  }
+
+  .imgProduitZoom {
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    width: auto
   }
 
   .nomProduit {
@@ -185,4 +207,23 @@ textarea {
   margin-bottom: 60px;
   border: solid 1px grey;
   text-align: center;
+}
+
+.blockPresentationMagasin {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.btn-delete {
+  float: right;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  border: solid 1px lightgrey;
+  padding: 10px 15px;
 }

@@ -15,7 +15,14 @@ class MessageController extends Controller
 
   public function afficheMessages()
   {
+
     $messages = Message::all();
       return view('message', ['messages'=>$messages]);
+    }
+
+    public function deleteMessage(Request $request, $id)
+    {
+      message::destroy($id);
+      return redirect('/message');
+    }
   }
-}

@@ -23,3 +23,5 @@ Route::get('/contact', 'HomeController@contact');
 Route::get('/produit', 'ProduitController@afficheProduit');
 Route::post('/contact', 'HomeController@insertOne');
 Route::get('/messages', 'MessageController@afficheMessages');
+Route::get('/produit/{id}/delete', 'ProduitController@deleteProduit');
+Route::get('/message/{id}/delete', 'MessageController@deleteMessage');

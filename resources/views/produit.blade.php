@@ -6,6 +6,9 @@
   <div class="mainContainer">
     @foreach ($produits as $produit)
       <div class="blockProduit">
+        @if(Auth::user())
+        ​<a class="btn-delete" href='/produit/{{ $produit->id }}/delete'>X</a>
+        @endif
         <div class="containerImg">
           <img class="imgProduit" src="img/{{$produit->image}}">
         </div>
